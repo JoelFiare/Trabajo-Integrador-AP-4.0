@@ -12,7 +12,7 @@ public class Campeonato {
     private final int totalRondas = 7;
     private HashMap<String, Equipo> Campeonato;
 
-    Campeonato() {
+    public Campeonato() {
         this.partidos = new HashMap<>();
         this.Campeonato = new HashMap<>();
     }
